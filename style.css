@@ -21,6 +21,14 @@ body{
     clip-path: polygon(0 10vh, 100% 0, 100% 90vh, 0 100%);
 }
 
+/* h2 header style */
+h2 {
+    text-align: center;
+    padding: 16vh;
+    font-family: Helvetica, sans-serif;
+    color: #3E464E;
+}
+
 #calculator-wrapper{
     position: absolute;
     top: 50%;
