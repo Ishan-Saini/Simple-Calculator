@@ -1,9 +1,11 @@
 console.log('loaded');
-var inputBox = document.getElementById('input');
-var numKeys = document.querySelectorAll('.num');
-var clearKey = document.getElementById('itemC');
-var opKey = document.querySelectorAll('.operation');
-var equalKey = document.getElementById('item='); 
+
+//use 'const' to prevent reassigning
+const inputBox = document.getElementById('input');
+const numKeys = document.querySelectorAll('.num');
+const clearKey = document.getElementById('itemC');
+const opKey = document.querySelectorAll('.operation');
+const equalKey = document.getElementById('item='); 
 
 
 for(const i of numKeys){
